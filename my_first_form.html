@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>"My First HTML Form"</title>
+</head>
+<body>
+<h2>User Login</h2>
+<form method="POST" action="http://request-inspector.glitch.me/">
+  <div>
+    <label for="username">Username</label>
+    <input id="username" name="username" type="text" placeholder="Username">
+  </div>
+  <div>
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" placeholder="Password">
+  </div>
+  <div>
+    <button>Submit</button>
+  </div>
+</form>
+<h2>Compose an Email</h2>
+<form method="POST" action="http://request-inspector.glitch.me/">
+  <div>
+    <label>
+      <span>To:</span><input name="to-block" type="text">
+    </label>
+  </div>
+  <div>
+    <label>
+      <span>From:</span><input name="from-block" type="text">
+    </label></div>
+  <div>
+    <label>
+      <span>Subject:</span><input name="subject-block" type="text">
+    </label>
+  </div>
+  <div>
+    <label>
+      <textarea name="body-block" cols="30" rows="10"></textarea>
+    </label>
+    <div>
+      <input name="save-copy" type="checkbox" id="save-copy" value="yes" checked>
+      <label for="save-copy">Would you like to save a copy to your "sent" folder?</label>
+    </div>
+    <button type="submit">Send</button>
+  </div>
+</form>
+<h2>Multiple Choice Test</h2>
+<form action="http://request-inspector.glitch.me/">
+  <p>What is the best food in the world?</p>
+  <label>
+    <input type="radio" name="q1" value="barbecue">
+    Barbecue
+  </label>
+  <label>
+    <input type="radio" name="q1" value="bbq">
+    BBQ
+  </label>
+  <label>
+    <input type="radio" name="q1" value="bar-b-q">
+    Bar-B-Q
+  </label>
+  <p>What is the best flavor of coke?</p>
+  <label>
+    <input type="radio" name="q2" value="dr. pepper">
+    Dr. Pepper
+  </label>
+  <label>
+    <input type="radio" name="q2" value="big red">
+    Big Red
+  </label>
+  <label>
+    <input type="radio" name="q2" value="shiner bock">
+    Shiner Bock
+  </label>
+  <p>What is your preferred text editor for coding?</p>
+  <select name="text-editor" id="text-editor">
+    <option value="intellij">IntelliJ</option>
+    <option value="sublime_text">Sublime Text</option>
+    <option value="vscode">VS Code</option>
+    <option value="nova">Nova</option>
+
+  </select>
+</form>
+<h2>Select Testing</h2>
+<form action="http://request-inspector.glitch.me/">
+  <label>
+    <span>Is your favorite color blue?</span>
+    <select name="fav-color" id="fav-color">
+      <option value="1">Yes</option>
+      <option selected value="0">No</option>
+    </select>
+  </label>
+</form>
+</body>
+</html>
