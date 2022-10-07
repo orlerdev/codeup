@@ -31,8 +31,6 @@ D
 switch_js.html,2/9/29d1c0468bf70ee903c2313df946a7ca364a5051
 <
 js/switch.js,3/0/30b1598a4ba4fa49955661005432e5b7424f8a7e
-B
-while_loop_js.html,f/6/f641ebd38134587733eebd8b8930fa0f1936126e
 @
 for_loop_js.html,2/d/2d163cab721d8505d190797b1d230b38ad513c7a
 F
@@ -63,3 +61,5 @@ C
 split-join.html,c/f/cfead90e4ca8c557272ddeea03676efa1582f7d1
 D
 js/planets-string.js,9/4/94e37e96fd7f42ea71e11e9ed1e24bae9d2cf028
+B
+while_loop_js.html,f/6/f641ebd38134587733eebd8b8930fa0f1936126e
